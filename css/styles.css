@@ -1,0 +1,138 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  font-size: 1em;
+}
+
+h1 {
+  color: #66BFBF;
+  font-size: 5.625rem;
+  margin:
+    /*top*/
+    50px
+    /*right*/
+    auto
+    /*bottom*/
+    0
+    /*left*/
+    auto;
+  font-family: 'Sacramento', cursive;
+}
+
+h2 {
+  color: #66BFBF;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+h3 {
+  color: #11999E;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+}
+
+.top-container {
+  position: relative;
+  background-color: #E4F9F5;
+  padding-top: 100px;
+  line-height: 2;
+  margin-bottom: 50px;
+}
+
+.skill-row {
+  width: 50%;
+  position: relative;
+  margin: 100px auto;
+  text-align: left;
+  line-height: 2;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 300px;
+  bottom: 300px;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 50px;
+  right: 300px;
+}
+
+.computer-img {
+  width: 25%;
+  float: left;
+  margin-right: 30px;
+}
+
+.chillies-img {
+  width: 25%;
+  float: right;
+  margin-left: 30px;
+}
+
+hr {
+  border-style: dotted;
+  border-width: thick;
+  border-color: #EAF6F6;
+  border-left: none;
+  border-right: none;
+  border-bottom: none;
+  border-top-width: 8px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  width: 5%;
+}
+
+.myButton {
+	background:linear-gradient(to bottom, #66bfbf 5%, #488a8a 100%);
+	background-color:#66bfbf;
+	border-radius:10px;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:12px;
+	padding:2px 12px;
+	text-decoration:none;
+	text-shadow:0px 0px 0px #283966;
+  margin-bottom: 50px;
+  font-weight: normal;
+}
+.myButton:hover {
+	background:linear-gradient(to bottom, #488a8a 5%, #66bfbf 100%);
+	background-color:#488a8a;
+}
+.myButton:active {
+	position:relative;
+	top:1px;
+}
+
+.contact-me {
+  line-height: 2;
+}
+
+a {
+  margin: auto 20px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  text-decoration: none;
+  color: #11999E;
+}
+
+.bottom-container {
+  background-color:  #66BFBF;
+  margin: 0;
+  padding-bottom: 20px;
+  padding-top: 20px;
+  line-height: 3;
+  font-size: 1rem;
+}
+
+.bottom-margin {
+  margin: 0;
+  font-size: 12px;
+  color: white;
+}
